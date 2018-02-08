@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/profielwerkstuk_achtergrond">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Verenigde Staten"
+            android:textColor="@color/colorTextButtons"
+            android:textSize="25dp"
+            android:textAlignment="center"/>
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="167.67dp"
+            android:layout_gravity="center"
+            android:src="@drawable/vs_vlag_900_600"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Algemene informatie over de Verenigde Staten:"
+            android:textColor="@color/colorTextButtons"
+            android:textSize="18dp"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=""
+            android:textSize="18dp"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Inwoners: 323.100.000 (2016)"
+            android:textColor="@color/colorTextButtons"
+            android:textSize="18dp"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Hoofdstad: Washington D.C."
+            android:textColor="@color/colorTextButtons"
+            android:textSize="18dp"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Reisafstand van Nederland naar de Verenigde Staten:"
+            android:textColor="@color/colorTextButtons"
+            android:textSize="18dp"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="7.506 km (10 uur)"
+            android:textColor="@color/colorTextButtons"
+            android:textSize="18dp"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=""
+            android:textSize="18dp"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Vakantieinformatie:"
+            android:textColor="@color/colorTextButtons"
+            android:textSize="18dp"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/colorTextButtons"
+            android:text="De VS is altijd al een populaire vakantiebestemming geweest voor Nederland, maar de VS is enorm. Als je er naar op vakantie gaat moet je eigenlijk een keuze maken in wat je gaat bezoeken. Je kan aan de oostkust de steden New York en Washington bezoeken. Ga je iets naar beneden dan kan je naar Florida op vakantie, waar het altijd mooi weer is en je mooie wilde natuur en mooie stranden hebt. Ook kan je naar Yellowstone park, een prachtig park in het centrum van de VS. Als je dan nog wat naar links gaat kom je bij plekken als de Grand Canyon en kom je steeds dichter in de buurt van Los Angeles en San Francisco. Wie naar de VS reist kan dus alle kanten op."
+            android:textSize="18dp"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/profielwerkstuk_achtergrond">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Japan"
+            android:textColor="@color/colorTextButtons"
+            android:textSize="25dp"
+            android:textAlignment="center"/>
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="167.67dp"
+            android:layout_gravity="center"
+            android:src="@drawable/japan_vlag_900_600"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Algemene informatie over Japan:"
+            android:textColor="@color/colorTextButtons"
+            android:textSize="18dp"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=""
+            android:textSize="18dp"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Inwoners: 127.000.000 (2016)"
+            android:textColor="@color/colorTextButtons"
+            android:textSize="18dp"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Hoofdstad: Tokio"
+            android:textColor="@color/colorTextButtons"
+            android:textSize="18dp"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Reisafstand van Nederland naar Japan:"
+            android:textColor="@color/colorTextButtons"
+            android:textSize="18dp"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="9.185 km (12 uur)"
+            android:textColor="@color/colorTextButtons"
+            android:textSize="18dp"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=""
+            android:textSize="18dp"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Vakantieinformatie:"
+            android:textColor="@color/colorTextButtons"
+            android:textSize="18dp"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/colorTextButtons"
+            android:text="In Japan is de levensverwachting het hoogst ter wereld, en dat komt waarschijnlijk doordat ze zoveel vis eten. Vis en sushi kan je dan ook overal in Japan eten. Als je naar Japan rijst, zal je minstens een paar dagen in de enorme stad Tokyo verblijven. Maar redelijk dichtbij de stad staat de Mount Fuji, een zeer oude vulkaan die prachtig ligt en die je nog steeds kan beklimmen. De oude cultuur van Japan is ook zeer excentriek. Mooie typisch Aziatische architectuur en oosterse Japanse kledij."
+            android:textSize="18dp"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/profielwerkstuk_achtergrond">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Tanzania"
+            android:textColor="@color/colorTextButtons"
+            android:textSize="25dp"
+            android:textAlignment="center"/>
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="167.67dp"
+            android:layout_gravity="center"
+            android:src="@drawable/tanzania_vlag_900_600"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Algemene informatie over Tanzania:"
+            android:textColor="@color/colorTextButtons"
+            android:textSize="18dp"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=""
+            android:textSize="18dp"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Inwoners: 55.570.000 (2016)"
+            android:textColor="@color/colorTextButtons"
+            android:textSize="18dp"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Hoofdstad: Dodoma"
+            android:textColor="@color/colorTextButtons"
+            android:textSize="18dp"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Reisafstand van Nederland naar Tanzania:"
+            android:textColor="@color/colorTextButtons"
+            android:textSize="18dp"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="7.084 km (9,5 uur)"
+            android:textColor="@color/colorTextButtons"
+            android:textSize="18dp"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=""
+            android:textSize="18dp"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Vakantieinformatie:"
+            android:textColor="@color/colorTextButtons"
+            android:textSize="18dp"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/colorTextButtons"
+            android:text="Een vakantie naar Tanzania brengt je naar de meest prachtige safari locaties ter wereld. Dankzij de gevarieerde fauna, de geweldige nationale parken en de witte zandstranden wordt uw reis naar Tanzania er eentje om nooit te vergeten."
+            android:textSize="18dp"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
+</ScrollView>

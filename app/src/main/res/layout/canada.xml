@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/profielwerkstuk_achtergrond">
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Canada"
+            android:textColor="@color/colorTextButtons"
+            android:textSize="25dp"
+            android:textAlignment="center"/>
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="167.67dp"
+            android:layout_gravity="center"
+            android:src="@drawable/canada_vlag_900_600"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Algemene informatie over Canada:"
+            android:textColor="@color/colorTextButtons"
+            android:textSize="18dp"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=""
+            android:textSize="18dp"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Inwoners: 36.290.000 (2016)"
+            android:textColor="@color/colorTextButtons"
+            android:textSize="18dp"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Hoofdstad: Ottawa"
+            android:textColor="@color/colorTextButtons"
+            android:textSize="18dp"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Reisafstand van Nederland naar Canada:"
+            android:textColor="@color/colorTextButtons"
+            android:textSize="18dp"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="6.453 km (8,5 uur)"
+            android:textColor="@color/colorTextButtons"
+            android:textSize="18dp"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=""
+            android:textSize="18dp"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Vakantieinformatie:"
+            android:textColor="@color/colorTextButtons"
+            android:textSize="18dp"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/colorTextButtons"
+            android:text="Canada is een enorm groot land waarvan de onderste provincies goed bewoonbaar zijn. Dichtbij de kust van de VS liggen ook de grote steden zoals Toronto, Montreal en Vancouver. Maar de gebieden die meer noordelijk liggen hebben prachtige natuur. Grote bossen en prachtige meren maken het landschap zo indrukwekkend als het is. Ook beren komen in grote maten voor in het landschap van Canada."
+            android:textSize="18dp"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
+</ScrollView>

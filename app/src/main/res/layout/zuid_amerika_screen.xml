@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/profielwerkstuk_achtergrond">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Vakantiebestemmingen Zuid-Amerika"
+            android:textColor="@color/colorTextButtons"
+            android:textAlignment="center"
+            android:textSize="21dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <Button
+            android:id="@+id/DisplayZ1"
+            android:layout_width="175dp"
+            android:layout_height="58dp"
+            android:onClick="onButtonClickZ1"
+            android:textColor="@color/colorTextButtons"
+            android:background="@drawable/border_style_background"
+            android:text="Argentinië" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+        <Button
+            android:id="@+id/DisplayZ2"
+            android:layout_width="175dp"
+            android:layout_height="58dp"
+            android:layout_marginTop="-68dp"
+            android:layout_marginLeft="180dp"
+            android:onClick="onButtonClickZ2"
+            android:textColor="@color/colorTextButtons"
+            android:background="@drawable/border_style_background"
+            android:text="Brazilië" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+        <Button
+            android:id="@+id/DisplayZ3"
+            android:layout_width="175dp"
+            android:layout_height="58dp"
+            android:onClick="onButtonClickZ3"
+            android:textColor="@color/colorTextButtons"
+            android:background="@drawable/border_style_background"
+            android:text="Chili" />
+
+
+    </LinearLayout>
+</ScrollView>

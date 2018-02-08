@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/profielwerkstuk_achtergrond">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Nieuw-Zeeland"
+            android:textColor="@color/colorTextButtons"
+            android:textSize="25dp"
+            android:textAlignment="center"/>
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="125dp"
+            android:layout_gravity="center"
+            android:src="@drawable/nieuw_zeeland_vlag_900_600"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Algemene informatie over Nieuw-Zeeland:"
+            android:textColor="@color/colorTextButtons"
+            android:textSize="18dp"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=""
+            android:textSize="18dp"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Inwoners: 4.693.000 (2016)"
+            android:textColor="@color/colorTextButtons"
+            android:textSize="18dp"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Hoofdstad: Wellington"
+            android:textColor="@color/colorTextButtons"
+            android:textSize="18dp"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Reisafstand van Nederland naar Nieuw-Zeeland:"
+            android:textColor="@color/colorTextButtons"
+            android:textSize="18dp"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="18.536 km (24,5 uur)"
+            android:textColor="@color/colorTextButtons"
+            android:textSize="18dp"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=""
+            android:textSize="18dp"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Vakantieinformatie:"
+            android:textColor="@color/colorTextButtons"
+            android:textSize="18dp"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/colorTextButtons"
+            android:text="Nieuw zeeland is een geweldig land met de mooiste gebergten en bossen. Nieuw zeeland is de plek die het verst van Nederland af ligt en dat betekent dat je er lang voor in het vliegtuig moet zitten, maar het is zeker de moeite waard. het prachtige landschap zorgt ervoor dat er veel films worden  opgenomen en veel mensen bezoeken dan ook een keer de set van bijvoorbeeld The Lord Of The Rings."
+            android:textSize="18dp"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
+</ScrollView>

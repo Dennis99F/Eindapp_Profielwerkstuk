@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/profielwerkstuk_achtergrond">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Onderwerp 1: Hoofdsteden"
+            android:textColor="@color/colorTextButtons"
+            android:textSize="25dp"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="257dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/afbeelding_onderwerp1"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="58dp"
+                android:background="@drawable/border_style_background"
+                android:textColor="@color/colorTextButtons"
+                android:layout_marginTop="10dp"
+                android:text="Niveau 1"
+                android:id="@+id/Onderwerp1_Hoofdsteden_Niveau1"
+                android:onClick="onButtonClickO1HN1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextButtons"
+                android:layout_marginTop="15dp"
+                android:textSize="20dp"
+                android:layout_marginLeft="152dp"
+                android:id="@+id/textScore"
+                android:text="0"/>
+
+            <TextView
+                android:id="@+id/txtHighScore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextButtons"
+                android:layout_marginLeft="152dp"
+                android:layout_marginTop="40dp"
+                android:text="0"
+                android:textSize="20dp" />
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="58dp"
+                android:textColor="@color/colorTextButtons"
+                android:background="@drawable/border_style_background"
+                android:layout_marginTop="72dp"
+                android:text="Niveau 2"
+                android:id="@+id/Onderwerp1_Hoofdsteden_Niveau2"
+                android:onClick="onButtonClickO1HN2"/>
+
+            <TextView
+                android:id="@+id/textScore2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextButtons"
+                android:layout_marginLeft="152dp"
+                android:layout_marginTop="77dp"
+                android:text="0"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/txtHighScore2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextButtons"
+                android:layout_marginLeft="152dp"
+                android:layout_marginTop="102dp"
+                android:text="0"
+                android:textSize="20dp" />
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="58dp"
+                android:textColor="@color/colorTextButtons"
+                android:background="@drawable/border_style_background"
+                android:layout_marginTop="134dp"
+                android:text="Niveau 3"
+                android:id="@+id/Onderwerp1_Hoofdsteden_Niveau3"
+                android:onClick="onButtonClickO1HN3"/>
+
+            <TextView
+                android:id="@+id/textScore3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextButtons"
+                android:layout_marginTop="139dp"
+                android:layout_marginLeft="152dp"
+                android:textSize="20dp"
+                android:text="0"/>
+            <TextView
+                android:id="@+id/txtHighScore3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextButtons"
+                android:layout_marginTop="164dp"
+                android:textSize="20dp"
+                android:layout_marginLeft="152dp"
+                android:text="0"/>
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="58dp"
+                android:textColor="@color/colorTextButtons"
+                android:background="@drawable/border_style_background"
+                android:layout_marginTop="196dp"
+                android:text="Niveau 4"
+                android:id="@+id/Onderwerp1_Hoofdsteden_Niveau4"
+                android:onClick="onButtonClickO1HN4"/>
+
+            <TextView
+                android:id="@+id/textScore4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextButtons"
+                android:layout_marginTop="201dp"
+                android:textSize="20dp"
+                android:layout_marginLeft="152dp"
+                android:text="0"/>
+            <TextView
+                android:id="@+id/txtHighScore4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextButtons"
+                android:layout_marginTop="226dp"
+                android:textSize="20dp"
+                android:layout_marginLeft="152dp"
+                android:text="0"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

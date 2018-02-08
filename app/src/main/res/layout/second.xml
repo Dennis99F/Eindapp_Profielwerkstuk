@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/profielwerkstuk_achtergrond">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Vakantiebestemmingen"
+            android:textAlignment="center"
+            android:textColor="@color/colorTextButtons"
+            android:textSize="25dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <Button
+            android:id="@+id/Bdisplay"
+            android:layout_width="175dp"
+            android:layout_height="58dp"
+            android:textColor="@color/colorTextButtons"
+            android:background="@drawable/border_style_background"
+            android:onClick="onButtonClickS1"
+            android:text="Afrika" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <Button
+            android:id="@+id/Bdisplay2"
+            android:layout_width="175dp"
+            android:layout_height="58dp"
+            android:layout_marginTop="-68dp"
+            android:layout_marginLeft="180dp"
+            android:textColor="@color/colorTextButtons"
+            android:background="@drawable/border_style_background"
+            android:onClick="onButtonClickS2"
+            android:text="Azië" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+        <Button
+            android:id="@+id/Bdisplay3"
+            android:layout_width="175dp"
+            android:layout_height="58dp"
+            android:textColor="@color/colorTextButtons"
+            android:background="@drawable/border_style_background"
+            android:onClick="onButtonClickS3"
+            android:text="Europa" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+        <Button
+            android:id="@+id/Bdisplay4"
+            android:layout_width="175dp"
+            android:layout_height="58dp"
+            android:layout_marginTop="-68dp"
+            android:layout_marginLeft="180dp"
+            android:textColor="@color/colorTextButtons"
+            android:background="@drawable/border_style_background"
+            android:onClick="onButtonClickS4"
+            android:text="Midden-Amerika" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+        <Button
+            android:id="@+id/Bdisplay5"
+            android:layout_width="175dp"
+            android:layout_height="58dp"
+            android:textColor="@color/colorTextButtons"
+            android:background="@drawable/border_style_background"
+            android:onClick="onButtonClickS5"
+            android:text="Noord-Amerika" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+        <Button
+            android:id="@+id/Bdisplay6"
+            android:layout_width="175dp"
+            android:layout_height="58dp"
+            android:layout_marginTop="-68dp"
+            android:layout_marginLeft="180dp"
+            android:textColor="@color/colorTextButtons"
+            android:background="@drawable/border_style_background"
+            android:onClick="onButtonClickS6"
+            android:text="Oceanië" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+        <Button
+            android:id="@+id/Bdisplay7"
+            android:layout_width="175dp"
+            android:layout_height="58dp"
+            android:textColor="@color/colorTextButtons"
+            android:background="@drawable/border_style_background"
+            android:onClick="onButtonClickS7"
+            android:text="Zuid-Amerika" />
+
+    </LinearLayout>
+</ScrollView>

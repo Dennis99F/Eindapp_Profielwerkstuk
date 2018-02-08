@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/profielwerkstuk_achtergrond">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textview11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Vakantiebestemmingen Europa"
+            android:textColor="@color/colorTextButtons"
+            android:textAlignment="center"
+            android:textSize="25dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <Button
+            android:id="@+id/DisplayE1"
+            android:layout_width="175dp"
+            android:layout_height="58dp"
+            android:textColor="@color/colorTextButtons"
+            android:background="@drawable/border_style_background"
+            android:onClick="onButtonClickE1"
+            android:text="Duitsland" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <Button
+            android:id="@+id/DisplayE2"
+            android:layout_width="175dp"
+            android:layout_height="58dp"
+            android:layout_marginTop="-68dp"
+            android:layout_marginLeft="180dp"
+            android:textColor="@color/colorTextButtons"
+            android:background="@drawable/border_style_background"
+            android:onClick="onButtonClickE2"
+            android:text="Engeland" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <Button
+            android:id="@+id/DisplayE3"
+            android:layout_width="175dp"
+            android:layout_height="58dp"
+            android:textColor="@color/colorTextButtons"
+            android:background="@drawable/border_style_background"
+            android:onClick="onButtonClickE3"
+            android:text="Frankrijk" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+        <Button
+            android:id="@+id/DisplayE4"
+            android:layout_width="175dp"
+            android:layout_height="58dp"
+            android:layout_marginTop="-68dp"
+            android:layout_marginLeft="180dp"
+            android:textColor="@color/colorTextButtons"
+            android:background="@drawable/border_style_background"
+            android:onClick="onButtonClickE4"
+            android:text="Griekenland" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+        <Button
+            android:id="@+id/DisplayE5"
+            android:layout_width="175dp"
+            android:layout_height="58dp"
+            android:textColor="@color/colorTextButtons"
+            android:background="@drawable/border_style_background"
+            android:onClick="onButtonClickE5"
+            android:text="Italië" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <Button
+            android:id="@+id/DisplayE6"
+            android:layout_width="175dp"
+            android:layout_height="58dp"
+            android:layout_marginTop="-68dp"
+            android:layout_marginLeft="180dp"
+            android:textColor="@color/colorTextButtons"
+            android:background="@drawable/border_style_background"
+            android:onClick="onButtonClickE6"
+            android:text="Kroatië" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <Button
+            android:id="@+id/DisplayE7"
+            android:layout_width="175dp"
+            android:layout_height="58dp"
+            android:textColor="@color/colorTextButtons"
+            android:background="@drawable/border_style_background"
+            android:onClick="onButtonClickE7"
+            android:text="Nederland" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <Button
+            android:id="@+id/DisplayE8"
+            android:layout_width="175dp"
+            android:layout_height="58dp"
+            android:layout_marginTop="-68dp"
+            android:layout_marginLeft="180dp"
+            android:textColor="@color/colorTextButtons"
+            android:background="@drawable/border_style_background"
+            android:onClick="onButtonClickE8"
+            android:text="Oostenrijk" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+        <Button
+            android:id="@+id/DisplayE10"
+            android:layout_width="175dp"
+            android:layout_height="58dp"
+            android:textColor="@color/colorTextButtons"
+            android:background="@drawable/border_style_background"
+            android:onClick="onButtonClickE10"
+            android:text="Spanje" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+        <Button
+            android:id="@+id/DisplayE11"
+            android:layout_width="175dp"
+            android:layout_height="58dp"
+            android:layout_marginTop="-68dp"
+            android:layout_marginLeft="180dp"
+            android:textColor="@color/colorTextButtons"
+            android:background="@drawable/border_style_background"
+            android:onClick="onButtonClickE11"
+            android:text="Zweden" />
+    </LinearLayout>
+</ScrollView>

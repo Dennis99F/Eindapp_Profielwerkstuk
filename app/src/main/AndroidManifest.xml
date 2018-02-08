@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dennis.vakantie_app">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Homescreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".second"></activity>
+        <activity android:name=".afrika_screen"></activity>
+        <activity android:name=".egypte"></activity>
+        <activity android:name=".marokko"></activity>
+        <activity android:name=".tanzania"></activity>
+        <activity android:name=".zuid_afrika"></activity>
+        <activity android:name=".azie_screen"></activity>
+        <activity android:name=".china"></activity>
+        <activity android:name=".indonesie"></activity>
+        <activity android:name=".japan"></activity>
+        <activity android:name=".thailand"></activity>
+        <activity android:name=".europa_screen"></activity>
+        <activity android:name=".midden_amerika_screen"></activity>
+        <activity android:name=".noord_amerika_screen"></activity>
+        <activity android:name=".oceanie_screen"></activity>
+        <activity android:name=".zuid_amerika_screen"></activity>
+        <activity android:name=".duitsland"></activity>
+        <activity android:name=".engeland"></activity>
+        <activity android:name=".frankrijk"></activity>
+        <activity android:name=".griekenland"></activity>
+        <activity android:name=".italie"></activity>
+        <activity android:name=".kroatie"></activity>
+        <activity android:name=".nederland"></activity>
+        <activity android:name=".oostenrijk"></activity>
+        <activity android:name=".spanje"></activity>
+        <activity android:name=".zweden"></activity>
+        <activity android:name=".costa_rica"></activity>
+        <activity android:name=".curacao"></activity>
+        <activity android:name=".canada"></activity>
+        <activity android:name=".verenigde_staten"></activity>
+        <activity android:name=".australie"></activity>
+        <activity android:name=".nieuw_zeeland"></activity>
+        <activity android:name=".argentinie"></activity>
+        <activity android:name=".brazilie"></activity>
+        <activity android:name=".chili"></activity>
+        <activity android:name=".de_test_screen"></activity>
+        <activity android:name=".quiz_screen"></activity>
+        <activity android:name=".onderwerp1"></activity>
+        <activity android:name=".onderwerp2"></activity>
+        <activity android:name=".onderwerp3"></activity>
+        <activity android:name=".onderwerp1_niveau1"></activity>
+        <activity android:name=".onderwerp1_niveau2"></activity>
+        <activity android:name=".onderwerp1_niveau3"></activity>
+        <activity android:name=".onderwerp1_niveau4"></activity>
+        <activity android:name=".onderwerp2_niveau1"></activity>
+        <activity android:name=".onderwerp2_niveau2"></activity>
+        <activity android:name=".onderwerp3_niveau1"></activity>
+        <activity android:name=".onderwerp3_niveau2"></activity>
+        <activity android:name=".vragenlijst_onderwerp1_niveau1"></activity>
+        <activity android:name=".vragenlijst_onderwerp1_niveau2"></activity>
+        <activity android:name=".vragenlijst_onderwerp1_niveau3"></activity>
+        <activity android:name=".vragenlijst_onderwerp1_niveau4"></activity>
+        <activity android:name=".vragenlijst_onderwerp2_niveau1"></activity>
+        <activity android:name=".vragenlijst_onderwerp2_niveau2"></activity>
+        <activity android:name=".vragenlijst_onderwerp3_niveau1"></activity>
+        <activity android:name=".vragenlijst_onderwerp3_niveau2"></activity>
+
+
+    </application>
+
+</manifest>
