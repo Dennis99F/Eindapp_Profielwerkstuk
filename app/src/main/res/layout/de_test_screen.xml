@@ -1,14 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@mipmap/profielwerkstuk_achtergrond">
 
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:textSize="25dp"
-        android:textColor="@color/colorTextButtons"
-        android:text="Dit is het scherm van de test."/>
-
-</LinearLayout>
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textviewDETEST"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="De Test"
+            android:textColor="@color/colorTextButtons"
+            android:textAlignment="center"
+            android:textSize="25dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="De bedoeling van onze app is om erachter te komen welk vakantieland het beste bij u past. Met deze simpele vragenlijst kunt u hier snel achterkomen. Doe de test hieronder!  "
+            android:textColor="@color/colorTextButtons"
+            android:textAlignment="center"
+            android:textSize="15dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="80dp"
+            android:textAlignment="center"
+            android:textColor="@color/colorTextButtons"
+            android:text="↓"/>
+        <Button
+            android:layout_gravity="center"
+            android:id="@+id/DisplayDETEST"
+            android:layout_width="175dp"
+            android:layout_height="58dp"
+            android:textColor="@color/colorTextButtons"
+            android:background="@drawable/border_style_background"
+            android:onClick="onButtonClickDETEST"
+            android:text="Doe de test nu!" />
+    </LinearLayout>
+</ScrollView>

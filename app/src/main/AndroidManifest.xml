@@ -72,6 +72,8 @@
         <activity android:name=".vragenlijst_onderwerp2_niveau2"></activity>
         <activity android:name=".vragenlijst_onderwerp3_niveau1"></activity>
         <activity android:name=".vragenlijst_onderwerp3_niveau2"></activity>
+        <activity android:name=".de_test_vragen"></activity>
+        <activity android:name=".favoriete_vakantiebestemming"></activity>
 
 
     </application>

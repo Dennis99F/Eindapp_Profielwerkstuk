@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:id="@+id/activity_quiz"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@mipmap/profielwerkstuk_achtergrond">
+
+    <TextView
+        android:id="@+id/question100"
+        android:layout_height="65dp"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/colorTextButtons"
+        android:padding="4dp"
+        android:textSize="20sp"
+        android:text="Question to answer"/>
+    <Button android:id="@+id/choice100"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="24dp"
+        android:padding="8dp"
+        android:text="A"
+        android:onClick="onClick9"
+        android:textColor="#fff"
+        android:background="@android:color/holo_blue_light"/>
+    <Button android:id="@+id/choice101"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="24dp"
+        android:padding="8dp"
+        android:text="B"
+        android:onClick="onClick9"
+        android:textColor="#fff"
+        android:background="@android:color/holo_blue_light"/>
+    <Button android:id="@+id/choice102"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="24dp"
+        android:padding="8dp"
+        android:text="C"
+        android:onClick="onClick9"
+        android:textColor="#fff"
+        android:background="@android:color/holo_blue_light"/>
+    <Button android:id="@+id/choice103"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="24dp"
+        android:padding="8dp"
+        android:text="D"
+        android:onClick="onClick9"
+        android:textColor="#fff"
+        android:background="@android:color/holo_blue_light"/>
+</LinearLayout>
+
