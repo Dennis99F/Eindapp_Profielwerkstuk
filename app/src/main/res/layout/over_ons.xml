@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/profielwerkstuk_achtergrond">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Hallo, wij zijn Dennis Futselaar en Koen van Deurzen."
+        android:textColor="@color/colorTextButtons"
+        android:textSize="15dp"
+        android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="
+
+Wij zijn twee scholieren van het Krimpenerwaard College uit Krimpen aan den IJssel, die deze app gemaakt hebben voor ons profielwerkstuk. Wij kregen in 5-Vwo de opdracht om een profielwerkstuk te maken. Wij kwamen vrij snel op het idee een app te maken, maar wij hebben lang na zitten denken over het onderwerp van de app. Vanaf hier zijn wij lang bezig geweest met het ontwikkelen van onze app en hebben hier ook veel tijd in gestoken. Meer dan een jaar later zijn we eindelijk klaar met onze app en kan deze gebruikt worden. U kunt meerdere dingen met deze app, zo kunt u een quiz doen, maar waar het eigenlijjk om draait is de test. Deze test heeft een vragenlijst, zodra u deze vragenlijst heeft beantwoord, zal uw vakantieland eruit komen. Nadat u deze test voltooid heeft, kunt u bij de pagina “vakantiebestemmingen” informatie vinden over uw ideale vakantieland. Dus veel plezier met het uitvinden van uw ideale vakantiebestemming!
+
+"
+            android:textColor="@color/colorTextButtons"
+            android:textSize="15dp"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Met vriendelijke groet, "
+            android:textColor="@color/colorTextButtons"
+            android:textSize="15dp"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Dennis Futselaar en Koen van Deurzen "
+            android:textColor="@color/colorTextButtons"
+            android:textSize="15dp"
+            android:textAlignment="center"/>
+
+
+
+    </LinearLayout>
+</ScrollView>

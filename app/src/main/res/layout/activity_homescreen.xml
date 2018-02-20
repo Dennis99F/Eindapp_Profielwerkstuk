@@ -17,42 +17,55 @@
             android:layout_height="match_parent" />
 
         <ImageView
-            android:layout_width="300dp"
-            android:layout_height="225dp"
+            android:layout_width="240dp"
+            android:layout_height="232dp"
             android:layout_gravity="center"
-            android:src="@mipmap/logo_app"/>/>
+            android:src="@drawable/nieuwe_voorpagina"/>/>
 
         <Button
             android:id="@+id/Wdisplay"
             android:layout_width="match_parent"
-            android:layout_height="58dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="13dp"
             android:background="@drawable/border_style"
             android:onClick="onButtonClickVB"
             android:text="@string/vakantiebestemmingen"
             android:textColor="#ffffff" />
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="5dp" />
 
         <Button
             android:id="@+id/Wdisplay2"
             android:layout_width="match_parent"
-            android:layout_height="58dp"
+            android:layout_height="48dp"
             android:background="@drawable/border_style"
             android:onClick="onButtonClickVB2"
             android:text="@string/de_test"
             android:textColor="#ffffff" />
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="5dp" />
 
         <Button
             android:id="@+id/Wdisplay3"
             android:layout_width="match_parent"
-            android:layout_height="58dp"
+            android:layout_height="48dp"
             android:background="@drawable/border_style"
             android:onClick="onButtonClickVB3"
             android:text="@string/quiz"
+            android:textColor="#ffffff" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <Button
+            android:id="@+id/Wdisplay4"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/border_style"
+            android:onClick="onButtonClickVB4"
+            android:text="Over ons"
             android:textColor="#ffffff" />
     </LinearLayout>
 </ScrollView>

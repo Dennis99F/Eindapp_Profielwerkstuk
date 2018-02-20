@@ -128,6 +128,7 @@
         android:layout_height="25dp"
         android:text="Kroatië"
         android:textSize="20dp"/>
+
     <TextView
         android:id="@+id/textScoreNederland"
         android:textColor="@color/colorTextButtons"
@@ -233,10 +234,6 @@
         android:layout_height="25dp"
         android:text="Chili"
         android:textSize="20dp"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-
     <Button
         android:id="@+id/DisplayEindbestemming"
         android:layout_marginTop="40dp"
@@ -246,5 +243,5 @@
         android:textColor="@color/colorTextButtons"
         android:background="@drawable/border_style_background"
         android:onClick="onButtonClickEindbestemming"
-        android:text="Ontdek uw vakantiebestemming!"/>
+        android:text="Terug"/>
 </LinearLayout>

@@ -31,4 +31,8 @@ public class Homescreen extends AppCompatActivity {
             startActivity(Vb3);
         }
     }
-}
+    public void onButtonClickVB4 (View Quiz) {
+            Intent Vb4 = new Intent(Homescreen.this, over_ons.class);
+            startActivity(Vb4);
+        }
+    }
